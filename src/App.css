@@ -17,3 +17,58 @@ html,
   padding: 0;
   height: 100%;
 }
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.add-book-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.book-cover {
+  width: 100%;
+  height: auto;
+}
+
+.add-book-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-book-container input,
+.add-book-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.add-book-container button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
